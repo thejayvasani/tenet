@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer() {
+export default function footer() {
   return (
     <div className="relative h-[650px] w-full flex justify-center items-center bg-[#abfd00] font-raleway rounded-3xl">
       <div className="absolute top-0 right-0 flex-row justify-center items-center text-xl mt-10 ml-[1100px] ">
