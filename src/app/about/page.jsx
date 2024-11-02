@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useRef, useLayoutEffect } from "react";
 import Menu from "@/components/Header/Menu";
+import footer from "@/components/footer";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { slideUp } from "./animation";
@@ -169,6 +170,7 @@ function page() {
           </div>
         </div>
       </div>
+      <footer />
     </>
   );
 }
