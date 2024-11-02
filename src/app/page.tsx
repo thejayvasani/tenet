@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer/index.jsx";
+import footer from "@/components/footer";
 import Work from "@/components/Work";
 import Preloader from "@/components/Preloader";
 import { AnimatePresence } from "framer-motion";
@@ -53,7 +53,7 @@ export default function Home() {
         <div data-scroll-container ref={scrollRef} className="scroll-container">
           <Header />
           <Work />
-          <Footer />
+          <footer />
         </div>
       )}
     </main>
