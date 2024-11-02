@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/all";
 import { slideUp } from "./animation";
 import { motion } from "framer-motion";
 import Cursor from "@/components/Cursor";
-import Footer from "@/components/Footer";
+import Footer from "@/components/Footer/index.jsx";
 
 
 function page() {
