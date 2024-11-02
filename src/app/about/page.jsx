@@ -8,7 +8,6 @@ import { ScrollTrigger } from "gsap/all";
 import { slideUp } from "./animation";
 import { motion } from "framer-motion";
 import Cursor from "@/components/Cursor";
-import Footer from "@/components/Footer";
 
 
 function page() {
@@ -170,8 +169,6 @@ function page() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
